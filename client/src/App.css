@@ -1,0 +1,47 @@
+.login-page {
+  background-color: rgb(8, 8, 46);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  background-color: rgba(240, 248, 255, 0.186);
+  padding: 24px;
+  border-radius: 24px;
+  gap: 18px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: 2px solid white;
+}
+
+button {
+  background-color: rgba(240, 248, 255, 0.227);
+  border: 0;
+  margin-top: 14px;
+}
+
+button:hover {
+  background-color: rgba(240, 248, 255, 0.342);
+  border: 0;
+}
